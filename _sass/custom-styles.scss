@@ -1,3 +1,17 @@
-.logo {
-    max-height: 100% !important;
+.navbar{
+    padding-top: 1rem;
+
+    .navbar-item{
+        img{
+            max-height: 100%;
+        }
+    }
+    .navbar-burger{
+        margin-top: 2rem;
+
+        &:hover{
+            color: #a06789;
+            background-color: transparent;
+        }
+    }
 }
