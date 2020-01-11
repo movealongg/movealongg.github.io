@@ -1,5 +1,5 @@
 .navbar{
-    padding-top: 1rem;
+    padding: 1rem;
     font-family: $headers;
 
     .navbar-item{
@@ -7,11 +7,6 @@
             max-height: 100%;
         }
     }
-
-    .navbar-brand{
-        padding: 1rem;
-    }
-    
     .navbar-burger{
         margin-top: 2rem;
 
