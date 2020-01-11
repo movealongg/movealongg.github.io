@@ -1,3 +1,5 @@
+$color-main: #a06789;
+
 .navbar{
     padding-top: 1rem;
 
@@ -10,7 +12,7 @@
         margin-top: 2rem;
 
         &:hover{
-            color: #a06789;
+            color: $color-main;
             background-color: transparent;
         }
     }
