@@ -1,7 +1,6 @@
-$color-main: #a06789;
-
 .navbar{
     padding-top: 1rem;
+    font-family: $headers;
 
     .navbar-item{
         img{
@@ -14,6 +13,13 @@ $color-main: #a06789;
         &:hover{
             color: $color-main;
             background-color: transparent;
+        }
+    }
+
+    .nav-links{
+        a{
+            color: $color-main;
+            font-family: $headers;
         }
     }
 }

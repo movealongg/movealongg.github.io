@@ -3,4 +3,8 @@
 ---
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "../_sass/custom-styles.scss";
+
+@import "../_sass/variables";
+@import "../_sass/typography";
+@import "../_sass/nav";
+@import "../_sass/footer";
