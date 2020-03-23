@@ -1,14 +1,16 @@
-footer{
-    background-color: $color-main;
-    color: $white;
+footer {
+    color: $color-main;
     font-size: .9rem;
-    padding: 10px 20px;
+    padding: 1rem 1.5rem;
     display: flex;
     justify-content: center;
-}
-
-@media screen and (min-width: 1024px){
-    footer{
+    @media screen and (min-width: 400px) {
+        padding: 1rem 2rem;
+    }
+    @media screen and (min-width: 1024px) {
         justify-content: flex-start;
     }
 }
+
+
+

@@ -1,22 +1,15 @@
 <header>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{site.url | relaitve_url }}">
-        <img src="{{site.url | relaitve_url }}/assets/logo.png" alt="Aliyah Northington's portfolio logo" class="image is-96x96 logo">
-      </a>
-  
-      <a role="button" class="navbar-burger burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
+  <nav role="navigation" aria-label="main navigation">
 
-    <div class="navbar-menu" id="navMenu">
-      <div class="navbar-end nav-links">
-        {% for page in site.pages %}
-        {% if page.title %}
-          <a href="{{ page.url | relative_url }}" class="navbar-item">{{ page.title }}</a>
+      <a href="{{site.url }}">
+        <img src="{{site.url }}/assets/logo.png" alt="Aliyah Northington's portfolio logo" class="logo">
+      </a>
+      
+      <div class="menu">
+        {% assign nav = (site.pages | sort: 'order') %}
+        {% for link in nav %}
+        {% if link.title %}
+          <a href="{{ link.url }}" class="nav-links {% if link.url == page.url %} active {% endif %}">{{ link.title }}</a>
         {% endif %}
         {% endfor %}
       </div>

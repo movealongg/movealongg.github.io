@@ -1,25 +1,35 @@
-.navbar{
-    padding: 1rem;
-    font-family: $headers;
-
-    .navbar-item{
-        img{
-            max-height: 100%;
-        }
+nav {
+    padding: 1.5rem 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        max-width: 90px;
+        width: 100%;
+        height: auto;
     }
-    .navbar-burger{
-        margin-top: 2rem;
-
-        &:hover{
-            color: $color-main;
-            background-color: transparent;
-        }
-    }
-
-    .nav-links{
-        a{
-            color: $color-main;
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 220px;
+        .nav-links {
             font-family: $headers;
+            font-size: 1.1rem;
+            color: $gray;
+            border-bottom: 2px solid transparent;
+            transition: all .15s ease-in-out;
+            &:hover {
+                color: $color-main;
+            }
         }
+        .active {
+            border-color: $color-main;
+            color: $gray !important;
+        }
+    }
+    @media screen and (min-width: 400px) {
+        padding: 2rem 2rem 0;
     }
 }
+
+
