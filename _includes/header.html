@@ -4,7 +4,13 @@
       <a href="{{site.url }}">
         <img src="{{site.url }}/assets/logo.png" alt="Aliyah Northington's portfolio logo" class="logo">
       </a>
-      
+
+        <div class="hamburger hamburger-toggle">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+
       <div class="menu">
         {% assign nav = (site.pages | sort: 'order') %}
         {% for link in nav %}
@@ -13,7 +19,14 @@
         {% endif %}
         {% endfor %}
       </div>
-      
-    </div>
   </nav>
+
+  <div class="mobile-menu">
+    {% assign nav = (site.pages | sort: 'order') %}
+    {% for link in nav %}
+    {% if link.title %}
+      <a href="{{ link.url }}" class="nav-links {% if link.url == page.url %} active {% endif %}">{{ link.title }}</a>
+    {% endif %}
+    {% endfor %}
+  </div>
 </header>

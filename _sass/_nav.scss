@@ -4,11 +4,77 @@ nav {
     justify-content: space-between;
     align-items: center;
     .logo {
-        max-width: 90px;
+        max-width: 80px;
         width: 100%;
         height: auto;
     }
-    .menu {
+    @media screen and (min-width: 400px) {
+        padding: 2rem 2rem 0;
+    }
+}
+
+// Hamburger Icon
+.hamburger{
+	width:30px;
+	height:30px;
+    position:relative;
+    @media screen and (min-width: 500px) {
+        display: none;
+    }
+}
+
+.line {
+    position: absolute;
+    height: 3px;
+    width:100%;
+    background: $color-main;
+    border-radius:10px;
+    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+.line1 {
+    top:19%;
+}
+
+.line2 {
+    top:49%;
+}
+
+.line3 {
+    top:79%;
+}
+.hamburger-toggle.close .line1 {
+    transform:rotate(45deg);
+    top:49%;
+}
+.hamburger-toggle.close .line2, .hamburger-toggle.close .line3 {
+    transform:rotate(-45deg);
+    top:49%;
+}
+
+// Mobile Menu
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+    z-index: 2;
+    background-color: $gray;
+    width: 100%;
+    position: absolute;
+    a {
+        padding: 0.8rem 2rem;
+        color: $lightgray;
+        font-family: $headers;
+        font-size: 1.1rem;
+    }
+    .active {
+        color: $white;
+    }
+}
+
+// Desktop Menu
+.menu {
+    display: none;
+    @media screen and (min-width: 500px) {
         display: flex;
         justify-content: space-between;
         width: 220px;
@@ -27,9 +93,4 @@ nav {
             color: $gray !important;
         }
     }
-    @media screen and (min-width: 400px) {
-        padding: 2rem 2rem 0;
-    }
 }
-
-
