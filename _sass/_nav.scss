@@ -53,13 +53,16 @@ nav {
 
 // Mobile Menu
 .mobile-menu {
-    display: none;
+    visibility: hidden;
+    display: flex;
     flex-direction: column;
     margin-top: 1rem;
     z-index: 2;
     background-color: $gray;
     width: 100%;
     position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s;
     a {
         padding: 0.8rem 2rem;
         color: $lightgray;
@@ -69,6 +72,11 @@ nav {
     .active {
         color: $white;
     }
+}
+
+.toggle {
+    opacity: 1;
+    visibility: visible;
 }
 
 // Desktop Menu

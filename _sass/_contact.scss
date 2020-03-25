@@ -1,0 +1,44 @@
+.sayhey {
+    width: 100%;
+    max-width: 350px;
+    padding-bottom: 1rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+    margin-bottom: 1rem;
+    svg {
+        color: $color-main;
+        padding: 1rem;
+    }
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    font-family: $copy;
+    input[type="text"], input[type="email"], textarea {
+        padding: 0.8rem;
+        border-radius: 3px;
+        border: 0;
+        background: $formgray;
+        color: $gray;
+        margin-bottom: 1rem;
+    }
+    button {
+        max-width: 85px;
+        padding: 0.5rem 1rem;
+        border-radius: 3px;
+        background-color: $color-main;
+        color: $white;
+        border: 0;
+        transition: all .5s linear;
+        &:hover{
+            opacity: 0.75;
+        
+        }
+    }
+}
