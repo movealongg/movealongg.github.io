@@ -9,13 +9,13 @@
     justify-content: center;
     max-width: 350px;
     margin-bottom: 1rem;
-    svg {
+    a {
         color: $color-main;
         padding: 1rem;
     }
 }
 
-.contact form {
+.contact-form {
     display: flex;
     flex-direction: column;
     max-width: 350px;
@@ -28,7 +28,7 @@
         color: $gray;
         margin-bottom: 1rem;
     }
-    button {
+    .contact-button {
         max-width: 85px;
         padding: 0.5rem 1rem;
         border-radius: 3px;
@@ -36,6 +36,7 @@
         color: $white;
         border: 0;
         transition: all .5s linear;
+        margin-bottom: 2rem;
         &:hover{
             opacity: 0.75;
         
