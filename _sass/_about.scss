@@ -1,0 +1,15 @@
+.about-button {
+    font-family: $copy;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: $color-main;
+    color: $white;
+    border: 0;
+    transition: all .5s linear;
+    margin-bottom: 2rem;
+    &:hover{
+        opacity: 0.75;
+    
+    }
+}
