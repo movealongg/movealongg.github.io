@@ -19,7 +19,6 @@
     display: flex;
     flex-direction: column;
     max-width: 350px;
-    font-family: $copy;
     input[type="text"], input[type="email"], textarea {
         padding: 0.8rem;
         border-radius: 3px;
@@ -27,9 +26,13 @@
         background: $formgray;
         color: $gray;
         margin-bottom: 1rem;
+        font-family: $copy;
+        font-weight: 300;
     }
     .contact-button {
         max-width: 85px;
+        font-family: $copy;
+        font-weight: 300;
         cursor: pointer;
         padding: 0.5rem 1rem;
         border-radius: 3px;
