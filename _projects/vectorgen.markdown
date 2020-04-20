@@ -1,6 +1,7 @@
 ---
-layout: post
-permalink: /wordpress/
+layout: project
+order: 1
+permalink: /work/wordpress/
 title:  "Wordpress Theme"
 image: vector-gen.jpg
 alt: "Vector Gen Website"

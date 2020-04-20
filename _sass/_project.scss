@@ -1,0 +1,22 @@
+.project {
+    p, img {
+        max-width: 64rem;
+        width: 100%;
+    }
+    .disclaimer {
+        font-style: italic;
+        font-size: .95rem;
+        margin: 1.5rem 0;
+    }
+}
+
+.project-nav {
+    display: flex;
+    justify-content: space-between;
+    .next {
+        margin-left: auto;
+    }
+    a {
+        font-weight: 400;
+    }
+}

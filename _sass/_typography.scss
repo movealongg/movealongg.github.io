@@ -8,7 +8,7 @@ h1 {
     margin: 1rem 0 2rem;
 }
 
-p {
+p, a {
     font-family: $copy;
     line-height: 1.5rem;
     font-weight: 300;
@@ -17,4 +17,8 @@ p {
 a {
     color: $color-main;
     text-decoration: none;
+    transition: all .15s ease-in-out;
+    &:hover {
+        color: $gray;
+    }
 }

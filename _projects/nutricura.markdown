@@ -1,6 +1,7 @@
 ---
-layout: post
-permalink: /divitheme/
+layout: project
+order: 2
+permalink: /work/divitheme/
 title:  "Divi Theme"
 image: nutricura.jpg
 alt: "Nutricura Website"

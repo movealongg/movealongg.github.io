@@ -1,6 +1,7 @@
 ---
-layout: post
-permalink: /responsivewebsite/
+layout: project
+order: 3
+permalink: /work/responsivewebsite/
 title:  "Responsive Website"
 image: oozma-kappa.jpg
 alt: "Oozma Kappa Website"

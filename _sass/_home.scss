@@ -46,7 +46,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
         @media(hover: hover) and (pointer: fine) {
             &:hover {
                 opacity: 0.9;
