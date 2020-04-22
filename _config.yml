@@ -29,7 +29,6 @@ url: "https://aliyahnorthington.com" # the base hostname & protocol for your sit
 collections: 
   projects:
     output: true
-    permalink: /projects/:order/
 
 # Build settings
 
