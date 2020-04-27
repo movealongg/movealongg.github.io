@@ -13,6 +13,10 @@ layout: default
 
   {{ content }}
 
+  {%- if page.link -%}
+    <a href="{{ page.link }}" target="_blank">{{ page.linkText }}</a>
+  {%- endif -%}
+
   {%- if page.disclaimer -%}
     <p class="disclaimer">Disclaimer: {{ page.disclaimer }}</p>
   {%- endif -%}
