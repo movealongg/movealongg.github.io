@@ -13,9 +13,17 @@ layout: default
 
   {{ content }}
 
-  {%- if page.link -%}
-    <a href="{{ page.link }}" target="_blank">{{ page.linkText }}</a>
-  {%- endif -%}
+  <div class="links">
+    {%- if page.code -%}
+      <a href="{{ page.code }}" target="_blank" class="project-link">Code</a>
+    {%- endif -%}
+    {%- if page.website -%}
+      <a href="{{ page.website }}" target="_blank" class="project-link">Website</a>
+    {%- endif -%}
+    {%- if page.document -%}
+      <a href="{{ page.document }}" target="_blank" class="project-link">Document</a>
+    {%- endif -%}
+  </div>
 
   {%- if page.disclaimer -%}
     <p class="disclaimer">Disclaimer: {{ page.disclaimer }}</p>

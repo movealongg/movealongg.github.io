@@ -10,6 +10,30 @@
     }
 }
 
+.links {
+    display: flex;
+    .project-link {
+        font-family: $copy;
+        font-weight: 300;
+        cursor: pointer;
+        padding: 0.2rem 0.5rem;
+        border-radius: 3px;
+        background-color: $color-main;
+        color: $white;
+        border: 0;
+        transition: all .5s linear;
+        display: inline-block;
+        margin-right: 1.5rem;
+        font-size: 0.9rem;
+        min-width: 2.5rem;
+        text-align: center;
+        &:hover{
+            opacity: 0.75;
+            color: $white;
+        }
+    }
+}
+
 // Prev Next
 .project-nav {
     display: flex;

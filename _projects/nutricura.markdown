@@ -5,8 +5,7 @@ permalink: /divitheme/
 title:  "Divi Theme"
 image: nutricura.jpg
 alt: "Nutricura Website"
-link: "https://adobe.ly/2Hefxc5"
-linkText: "Click here to view the final campaign document"
+document: "https://adobe.ly/2Hefxc5"
 disclaimer: "The images used in this project are for educational purposes only."
 ---
 This project was part of my Capstone course in my graduate program at the University of Florida. The goal of our Capstone course was to combine all of the skills that we learned in our master’s program into one semester-long project. I worked on a team of five for the duration of my Capstone. The project included a situation analysis, logo design proposal and brand manifesto, creative brief/branding guide, website wireframes and mockups, campaign strategy and design pieces, usability testing, a fully functional e-commerce website, and a final campaign document.
