@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-image: me.jpg
+image: aliyah.jpg
 alt: "Aliyah Northington"
 intro: "Hi, I’m Aliyah. I’m a web developer living in Madison, Alabama, and I’m currently working for SAIC at the Army Game Studio."
 permalink: /about/
