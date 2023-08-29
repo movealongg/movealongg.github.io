@@ -1,4 +1,4 @@
-# Aliyah Northington's Personal Portfolio
+# Aliyah Sims' Personal Portfolio
 
 Personal portfolio created using [Jekyll](https://jekyllrb.com).
 

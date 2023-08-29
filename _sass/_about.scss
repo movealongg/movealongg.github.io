@@ -37,3 +37,13 @@
         color: $white;
     }
 }
+
+.social {
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+    a {
+        color: $color-main;
+        padding: 0 1rem;
+    }
+}
